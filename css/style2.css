@@ -1,0 +1,79 @@
+.navbar {
+  z-index: 13 !important;
+}
+.align-middle {
+  align-items: center;
+}
+.navbar-brand,
+h2,
+h3 {
+  color: rgb(76, 86, 179) !important;
+}
+.navbar-brand,
+h3 {
+  font-family: Yellowtail, cursive;
+}
+.navbar-brand {
+  text-align: left !important;
+}
+h2 {
+  text-align: center;
+}
+.rounded {
+  width: 50px !important;
+  height: auto;
+}
+.position-absolute {
+  z-index: 20;
+  left: 40%;
+  top: 5%;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px white;
+}
+.carousel img {
+  border-radius: 20px !important;
+  width: auto !important;
+  height: 70vh !important;
+  width: 100% !important;
+  display: inline-block !important;
+  margin-right: -4px !important;
+}
+
+.img-bakery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bakery {
+  width: 80%;
+  height: auto;
+}
+.card-body {
+  width: 90vw;
+  border: none;
+}
+
+.action {
+  background-color: rgb(76, 86, 179);
+  color: white;
+  font-family: Yellowtail, cursive;
+  text-align: left !important;
+}
+.service {
+  filter: brightness(0.5);
+  transition: 0.3s;
+}
+.service:hover {
+  filter: brightness(0.9);
+}
+h1 {
+  font-size: 40px;
+}
+.card-footer {
+  background-color: rgb(53, 58, 64) !important;
+  font-size: 10px;
+}
+.description-footer {
+  color: #aaa !important;
+  margin: 0;
+}
